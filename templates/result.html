@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Phishing Domain Detection</title>
+    <style>
+        :root {
+        --color-background: #222;
+        --color-foreground: #ddd;
+        }
+        body{
+            background: var(--color-background);
+        }
+        .container {
+          align-items: center;
+          background: var(--color-background);
+          display: flex;
+          height: 100vh;
+          justify-content: center;
+          flex-direction: column;
+          text-align: center;
+        }
+      
+        .result__heading {
+          color: var(--color-foreground);
+          font-size: 2rem;
+          margin-bottom: 2rem;
+        }
+      
+        .result__url,
+        .result__prediction {
+          color: var(--color-foreground);
+          font-size: 1.5rem;
+          margin-bottom: 1rem;
+        }
+      </style>
+  </head>
+  <body>
+        <div class="container">
+            <h1 class="result__heading">Phishing Domain Detection Result</h1>
+            <p class="result__url">URL: {{ url }}</p>
+            <p class="result__prediction">Prediction: {{ prediction }}</p>
+        </div>
+    </body>
+</html>
+  
