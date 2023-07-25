@@ -2,7 +2,9 @@ from fastapi import FastAPI, Request, Form
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import HTMLResponse
-
+from extractor import ExtractFeatures
+import pandas as pd
+import pickle
 app = FastAPI()
 templates = Jinja2Templates(directory="templates")
 
@@ -16,10 +18,14 @@ async def read_root(request: Request):
 
 @app.post("/submit", response_class=HTMLResponse)
 async def submit_form(request: Request):
-    # Process the form submission here
-    # You can use the 'answer' variable to get the submitted value from the form
-
-    # For now, let's assume you want to display the submitted answer in 'result.html'
+    form_data = await request.form()
+    extractor = ExtractFeatures()
+    extracted_features = extractor.url_to_features(form_data["url"])
+    dataframe = pd.DataFrame(extracted_features, index=[0])
+    with open('phishing_url_detector.pkl', 'rb') as file:
+        loaded_model = pickle.load(file)
+    prediction = loaded_model.predict(dataframe)
+    print(prediction)
     return templates.TemplateResponse("result.html", {"request": request})
 
 
