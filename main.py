@@ -3,14 +3,19 @@ from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import HTMLResponse
 from extractor import ExtractFeatures
+from pycaret.classification import setup, predict_model
 import pandas as pd
 import pickle
+
 app = FastAPI()
 templates = Jinja2Templates(directory="templates")
 
 # Mount the static folder to serve CSS files
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
+# Load the trained model using pickle
+with open('xgb.pkl', 'rb') as file:
+    loaded_tuned_model = pickle.load(file)
 
 @app.get("/", response_class=HTMLResponse)
 async def read_root(request: Request):
@@ -20,13 +25,14 @@ async def read_root(request: Request):
 async def submit_form(request: Request):
     form_data = await request.form()
     extractor = ExtractFeatures()
-    extracted_features = extractor.url_to_features(form_data["url"])
-    dataframe = pd.DataFrame(extracted_features, index=[0])
-    with open('phishing_url_detector.pkl', 'rb') as file:
-        loaded_model = pickle.load(file)
-    prediction = loaded_model.predict(dataframe)
-    print(prediction)
-    return templates.TemplateResponse("result.html", {"request": request})
+    url = form_data["url"]
+    features = extractor.url_to_features(url)
+    dataframe = pd.DataFrame([features])
+    predictions = loaded_tuned_model.predict(dataframe)
+    print(predictions)
+    if predictions[0] == 0:
+        return templates.TemplateResponse("result.html", {"request": request, "url": form_data["url"], "prediction": "Not Phishing"})
+    return templates.TemplateResponse("result.html", {"request": request, "url": form_data["url"], "prediction": "Phishing"})
 
 
 if __name__ == "__main__":

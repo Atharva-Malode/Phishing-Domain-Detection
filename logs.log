@@ -1,0 +1,663 @@
+2023-07-28 13:23:46,550:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:23:46,550:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:23:46,550:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:23:46,550:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:24:53,027:INFO:Initializing predict_model()
+2023-07-28 13:24:53,027:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000017DE720B220>, estimator=XGBClassifier(base_score=None, booster='gbtree', callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=None, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=-1, num_parallel_tree=None,
+              predictor=None, random_state=7727, ...), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000017DE7203EB0>)
+2023-07-28 13:24:53,029:INFO:Checking exceptions
+2023-07-28 13:24:53,029:INFO:Preloading libraries
+2023-07-28 13:27:55,782:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:27:55,782:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:27:55,782:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:27:55,782:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:28:45,282:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:28:45,283:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:28:45,283:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:28:45,283:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:28:45,834:INFO:PyCaret ClassificationExperiment
+2023-07-28 13:28:45,834:INFO:Logging name: clf-default-name
+2023-07-28 13:28:45,834:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2023-07-28 13:28:45,834:INFO:version 3.0.4
+2023-07-28 13:28:45,834:INFO:Initializing setup()
+2023-07-28 13:28:45,834:INFO:self.USI: 4f4c
+2023-07-28 13:28:45,834:INFO:self._variable_keys: {'exp_name_log', 'fold_shuffle_param', 'n_jobs_param', 'memory', 'X', 'X_test', 'fold_generator', 'html_param', 'y_train', '_available_plots', 'fix_imbalance', 'fold_groups_param', 'idx', 'gpu_param', '_ml_usecase', 'X_train', 'logging_param', 'data', 'seed', 'USI', 'pipeline', 'gpu_n_jobs_param', 'log_plots_param', 'target_param', 'y', 'exp_id', 'y_test', 'is_multiclass'}
+2023-07-28 13:28:45,834:INFO:Checking environment
+2023-07-28 13:28:45,834:INFO:python_version: 3.10.11
+2023-07-28 13:28:45,834:INFO:python_build: ('tags/v3.10.11:7d4cc5a', 'Apr  5 2023 00:38:17')
+2023-07-28 13:28:45,834:INFO:machine: AMD64
+2023-07-28 13:28:45,857:INFO:platform: Windows-10-10.0.22621-SP0
+2023-07-28 13:28:45,860:INFO:Memory: svmem(total=8270589952, available=980500480, percent=88.1, used=7290089472, free=980500480)
+2023-07-28 13:28:45,860:INFO:Physical Core: 4
+2023-07-28 13:28:45,860:INFO:Logical Core: 8
+2023-07-28 13:28:45,860:INFO:Checking libraries
+2023-07-28 13:28:45,860:INFO:System:
+2023-07-28 13:28:45,860:INFO:    python: 3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]
+2023-07-28 13:28:45,860:INFO:executable: D:\Phishing-Domain-Detection\Phishing-Domain-Detection\phishing\Scripts\python.exe
+2023-07-28 13:28:45,860:INFO:   machine: Windows-10-10.0.22621-SP0
+2023-07-28 13:28:45,860:INFO:PyCaret required dependencies:
+2023-07-28 13:28:47,715:INFO:                 pip: 23.2
+2023-07-28 13:28:47,715:INFO:          setuptools: 67.8.0
+2023-07-28 13:28:47,715:INFO:             pycaret: 3.0.4
+2023-07-28 13:28:47,715:INFO:             IPython: 8.14.0
+2023-07-28 13:28:47,715:INFO:          ipywidgets: 8.0.7
+2023-07-28 13:28:47,715:INFO:                tqdm: 4.65.0
+2023-07-28 13:28:47,715:INFO:               numpy: 1.23.5
+2023-07-28 13:28:47,715:INFO:              pandas: 1.5.3
+2023-07-28 13:28:47,715:INFO:              jinja2: 3.1.2
+2023-07-28 13:28:47,715:INFO:               scipy: 1.11.1
+2023-07-28 13:28:47,715:INFO:              joblib: 1.3.1
+2023-07-28 13:28:47,715:INFO:             sklearn: 1.2.2
+2023-07-28 13:28:47,715:INFO:                pyod: 1.1.0
+2023-07-28 13:28:47,715:INFO:            imblearn: 0.11.0
+2023-07-28 13:28:47,715:INFO:   category_encoders: 2.6.1
+2023-07-28 13:28:47,715:INFO:            lightgbm: 4.0.0
+2023-07-28 13:28:47,715:INFO:               numba: 0.57.1
+2023-07-28 13:28:47,715:INFO:            requests: 2.31.0
+2023-07-28 13:28:47,715:INFO:          matplotlib: 3.7.2
+2023-07-28 13:28:47,715:INFO:          scikitplot: 0.3.7
+2023-07-28 13:28:47,715:INFO:         yellowbrick: 1.5
+2023-07-28 13:28:47,715:INFO:              plotly: 5.15.0
+2023-07-28 13:28:47,715:INFO:    plotly-resampler: Not installed
+2023-07-28 13:28:47,715:INFO:             kaleido: 0.2.1
+2023-07-28 13:28:47,715:INFO:           schemdraw: 0.15
+2023-07-28 13:28:47,715:INFO:         statsmodels: 0.14.0
+2023-07-28 13:28:47,715:INFO:              sktime: 0.21.0
+2023-07-28 13:28:47,715:INFO:               tbats: 1.1.3
+2023-07-28 13:28:47,715:INFO:            pmdarima: 2.0.3
+2023-07-28 13:28:47,715:INFO:              psutil: 5.9.5
+2023-07-28 13:28:47,715:INFO:          markupsafe: 2.1.3
+2023-07-28 13:28:47,715:INFO:             pickle5: Not installed
+2023-07-28 13:28:47,715:INFO:         cloudpickle: 2.2.1
+2023-07-28 13:28:47,715:INFO:         deprecation: 2.1.0
+2023-07-28 13:28:47,715:INFO:              xxhash: 3.2.0
+2023-07-28 13:28:47,715:INFO:           wurlitzer: Not installed
+2023-07-28 13:28:47,715:INFO:PyCaret optional dependencies:
+2023-07-28 13:28:47,731:INFO:                shap: 0.42.1
+2023-07-28 13:28:47,731:INFO:           interpret: Not installed
+2023-07-28 13:28:47,731:INFO:                umap: Not installed
+2023-07-28 13:28:47,731:INFO:    pandas_profiling: Not installed
+2023-07-28 13:28:47,731:INFO:  explainerdashboard: Not installed
+2023-07-28 13:28:47,731:INFO:             autoviz: Not installed
+2023-07-28 13:28:47,731:INFO:           fairlearn: Not installed
+2023-07-28 13:28:47,731:INFO:          deepchecks: Not installed
+2023-07-28 13:28:47,731:INFO:             xgboost: 1.7.6
+2023-07-28 13:28:47,731:INFO:            catboost: Not installed
+2023-07-28 13:28:47,731:INFO:              kmodes: Not installed
+2023-07-28 13:28:47,731:INFO:             mlxtend: Not installed
+2023-07-28 13:28:47,731:INFO:       statsforecast: Not installed
+2023-07-28 13:28:47,731:INFO:        tune_sklearn: Not installed
+2023-07-28 13:28:47,731:INFO:                 ray: Not installed
+2023-07-28 13:28:47,731:INFO:            hyperopt: Not installed
+2023-07-28 13:28:47,731:INFO:              optuna: Not installed
+2023-07-28 13:28:47,731:INFO:               skopt: Not installed
+2023-07-28 13:28:47,731:INFO:              mlflow: Not installed
+2023-07-28 13:28:47,731:INFO:              gradio: Not installed
+2023-07-28 13:28:47,731:INFO:             fastapi: 0.100.0
+2023-07-28 13:28:47,731:INFO:             uvicorn: 0.23.1
+2023-07-28 13:28:47,731:INFO:              m2cgen: Not installed
+2023-07-28 13:28:47,731:INFO:           evidently: Not installed
+2023-07-28 13:28:47,731:INFO:               fugue: Not installed
+2023-07-28 13:28:47,731:INFO:           streamlit: Not installed
+2023-07-28 13:28:47,731:INFO:             prophet: Not installed
+2023-07-28 13:28:47,731:INFO:None
+2023-07-28 13:28:47,731:INFO:Set up data.
+2023-07-28 13:28:57,219:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:28:57,219:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:28:57,219:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:28:57,219:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:28:57,813:INFO:PyCaret ClassificationExperiment
+2023-07-28 13:28:57,813:INFO:Logging name: clf-default-name
+2023-07-28 13:28:57,813:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2023-07-28 13:28:57,813:INFO:version 3.0.4
+2023-07-28 13:28:57,813:INFO:Initializing setup()
+2023-07-28 13:28:57,813:INFO:self.USI: 0e46
+2023-07-28 13:28:57,813:INFO:self._variable_keys: {'data', 'y_test', 'y', 'seed', 'USI', 'X', 'fold_shuffle_param', 'idx', '_ml_usecase', 'is_multiclass', 'gpu_n_jobs_param', 'y_train', 'n_jobs_param', 'log_plots_param', 'X_train', 'target_param', 'fold_generator', 'pipeline', 'gpu_param', 'fold_groups_param', '_available_plots', 'X_test', 'fix_imbalance', 'logging_param', 'html_param', 'exp_id', 'memory', 'exp_name_log'}
+2023-07-28 13:28:57,813:INFO:Checking environment
+2023-07-28 13:28:57,813:INFO:python_version: 3.10.11
+2023-07-28 13:28:57,813:INFO:python_build: ('tags/v3.10.11:7d4cc5a', 'Apr  5 2023 00:38:17')
+2023-07-28 13:28:57,813:INFO:machine: AMD64
+2023-07-28 13:28:57,846:INFO:platform: Windows-10-10.0.22621-SP0
+2023-07-28 13:28:57,849:INFO:Memory: svmem(total=8270589952, available=854097920, percent=89.7, used=7416492032, free=854097920)
+2023-07-28 13:28:57,850:INFO:Physical Core: 4
+2023-07-28 13:28:57,850:INFO:Logical Core: 8
+2023-07-28 13:28:57,850:INFO:Checking libraries
+2023-07-28 13:28:57,850:INFO:System:
+2023-07-28 13:28:57,850:INFO:    python: 3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]
+2023-07-28 13:28:57,850:INFO:executable: D:\Phishing-Domain-Detection\Phishing-Domain-Detection\phishing\Scripts\python.exe
+2023-07-28 13:28:57,850:INFO:   machine: Windows-10-10.0.22621-SP0
+2023-07-28 13:28:57,850:INFO:PyCaret required dependencies:
+2023-07-28 13:28:57,866:INFO:                 pip: 23.2
+2023-07-28 13:28:57,866:INFO:          setuptools: 67.8.0
+2023-07-28 13:28:57,866:INFO:             pycaret: 3.0.4
+2023-07-28 13:28:57,867:INFO:             IPython: 8.14.0
+2023-07-28 13:28:57,867:INFO:          ipywidgets: 8.0.7
+2023-07-28 13:28:57,867:INFO:                tqdm: 4.65.0
+2023-07-28 13:28:57,867:INFO:               numpy: 1.23.5
+2023-07-28 13:28:57,867:INFO:              pandas: 1.5.3
+2023-07-28 13:28:57,867:INFO:              jinja2: 3.1.2
+2023-07-28 13:28:57,867:INFO:               scipy: 1.11.1
+2023-07-28 13:28:57,867:INFO:              joblib: 1.3.1
+2023-07-28 13:28:57,867:INFO:             sklearn: 1.2.2
+2023-07-28 13:28:57,867:INFO:                pyod: 1.1.0
+2023-07-28 13:28:57,867:INFO:            imblearn: 0.11.0
+2023-07-28 13:28:57,867:INFO:   category_encoders: 2.6.1
+2023-07-28 13:28:57,867:INFO:            lightgbm: 4.0.0
+2023-07-28 13:28:57,867:INFO:               numba: 0.57.1
+2023-07-28 13:28:57,867:INFO:            requests: 2.31.0
+2023-07-28 13:28:57,867:INFO:          matplotlib: 3.7.2
+2023-07-28 13:28:57,867:INFO:          scikitplot: 0.3.7
+2023-07-28 13:28:57,867:INFO:         yellowbrick: 1.5
+2023-07-28 13:28:57,867:INFO:              plotly: 5.15.0
+2023-07-28 13:28:57,867:INFO:    plotly-resampler: Not installed
+2023-07-28 13:28:57,867:INFO:             kaleido: 0.2.1
+2023-07-28 13:28:57,867:INFO:           schemdraw: 0.15
+2023-07-28 13:28:57,867:INFO:         statsmodels: 0.14.0
+2023-07-28 13:28:57,867:INFO:              sktime: 0.21.0
+2023-07-28 13:28:57,867:INFO:               tbats: 1.1.3
+2023-07-28 13:28:57,867:INFO:            pmdarima: 2.0.3
+2023-07-28 13:28:57,867:INFO:              psutil: 5.9.5
+2023-07-28 13:28:57,868:INFO:          markupsafe: 2.1.3
+2023-07-28 13:28:57,868:INFO:             pickle5: Not installed
+2023-07-28 13:28:57,868:INFO:         cloudpickle: 2.2.1
+2023-07-28 13:28:57,868:INFO:         deprecation: 2.1.0
+2023-07-28 13:28:57,868:INFO:              xxhash: 3.2.0
+2023-07-28 13:28:57,868:INFO:           wurlitzer: Not installed
+2023-07-28 13:28:57,868:INFO:PyCaret optional dependencies:
+2023-07-28 13:28:57,875:INFO:                shap: 0.42.1
+2023-07-28 13:28:57,875:INFO:           interpret: Not installed
+2023-07-28 13:28:57,875:INFO:                umap: Not installed
+2023-07-28 13:28:57,875:INFO:    pandas_profiling: Not installed
+2023-07-28 13:28:57,875:INFO:  explainerdashboard: Not installed
+2023-07-28 13:28:57,875:INFO:             autoviz: Not installed
+2023-07-28 13:28:57,875:INFO:           fairlearn: Not installed
+2023-07-28 13:28:57,875:INFO:          deepchecks: Not installed
+2023-07-28 13:28:57,875:INFO:             xgboost: 1.7.6
+2023-07-28 13:28:57,875:INFO:            catboost: Not installed
+2023-07-28 13:28:57,875:INFO:              kmodes: Not installed
+2023-07-28 13:28:57,875:INFO:             mlxtend: Not installed
+2023-07-28 13:28:57,875:INFO:       statsforecast: Not installed
+2023-07-28 13:28:57,875:INFO:        tune_sklearn: Not installed
+2023-07-28 13:28:57,875:INFO:                 ray: Not installed
+2023-07-28 13:28:57,875:INFO:            hyperopt: Not installed
+2023-07-28 13:28:57,875:INFO:              optuna: Not installed
+2023-07-28 13:28:57,875:INFO:               skopt: Not installed
+2023-07-28 13:28:57,875:INFO:              mlflow: Not installed
+2023-07-28 13:28:57,875:INFO:              gradio: Not installed
+2023-07-28 13:28:57,875:INFO:             fastapi: 0.100.0
+2023-07-28 13:28:57,875:INFO:             uvicorn: 0.23.1
+2023-07-28 13:28:57,875:INFO:              m2cgen: Not installed
+2023-07-28 13:28:57,875:INFO:           evidently: Not installed
+2023-07-28 13:28:57,875:INFO:               fugue: Not installed
+2023-07-28 13:28:57,875:INFO:           streamlit: Not installed
+2023-07-28 13:28:57,875:INFO:             prophet: Not installed
+2023-07-28 13:28:57,875:INFO:None
+2023-07-28 13:28:57,875:INFO:Set up data.
+2023-07-28 13:30:38,009:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:30:38,009:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:30:38,009:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:30:38,009:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:30:38,554:INFO:PyCaret ClassificationExperiment
+2023-07-28 13:30:38,555:INFO:Logging name: clf-default-name
+2023-07-28 13:30:38,555:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2023-07-28 13:30:38,555:INFO:version 3.0.4
+2023-07-28 13:30:38,555:INFO:Initializing setup()
+2023-07-28 13:30:38,555:INFO:self.USI: 6729
+2023-07-28 13:30:38,555:INFO:self._variable_keys: {'log_plots_param', 'fix_imbalance', '_ml_usecase', 'y_train', 'exp_id', '_available_plots', 'y_test', 'y', 'X_test', 'logging_param', 'target_param', 'is_multiclass', 'html_param', 'gpu_n_jobs_param', 'fold_shuffle_param', 'X', 'gpu_param', 'X_train', 'fold_groups_param', 'pipeline', 'n_jobs_param', 'seed', 'USI', 'data', 'idx', 'fold_generator', 'memory', 'exp_name_log'}
+2023-07-28 13:30:38,555:INFO:Checking environment
+2023-07-28 13:30:38,555:INFO:python_version: 3.10.11
+2023-07-28 13:30:38,555:INFO:python_build: ('tags/v3.10.11:7d4cc5a', 'Apr  5 2023 00:38:17')
+2023-07-28 13:30:38,555:INFO:machine: AMD64
+2023-07-28 13:30:38,573:INFO:platform: Windows-10-10.0.22621-SP0
+2023-07-28 13:30:38,576:INFO:Memory: svmem(total=8270589952, available=885956608, percent=89.3, used=7384633344, free=885956608)
+2023-07-28 13:30:38,576:INFO:Physical Core: 4
+2023-07-28 13:30:38,576:INFO:Logical Core: 8
+2023-07-28 13:30:38,576:INFO:Checking libraries
+2023-07-28 13:30:38,576:INFO:System:
+2023-07-28 13:30:38,577:INFO:    python: 3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]
+2023-07-28 13:30:38,577:INFO:executable: D:\Phishing-Domain-Detection\Phishing-Domain-Detection\phishing\Scripts\python.exe
+2023-07-28 13:30:38,577:INFO:   machine: Windows-10-10.0.22621-SP0
+2023-07-28 13:30:38,577:INFO:PyCaret required dependencies:
+2023-07-28 13:30:38,595:INFO:                 pip: 23.2
+2023-07-28 13:30:38,595:INFO:          setuptools: 67.8.0
+2023-07-28 13:30:38,595:INFO:             pycaret: 3.0.4
+2023-07-28 13:30:38,595:INFO:             IPython: 8.14.0
+2023-07-28 13:30:38,596:INFO:          ipywidgets: 8.0.7
+2023-07-28 13:30:38,596:INFO:                tqdm: 4.65.0
+2023-07-28 13:30:38,596:INFO:               numpy: 1.23.5
+2023-07-28 13:30:38,596:INFO:              pandas: 1.5.3
+2023-07-28 13:30:38,596:INFO:              jinja2: 3.1.2
+2023-07-28 13:30:38,596:INFO:               scipy: 1.11.1
+2023-07-28 13:30:38,596:INFO:              joblib: 1.3.1
+2023-07-28 13:30:38,596:INFO:             sklearn: 1.2.2
+2023-07-28 13:30:38,596:INFO:                pyod: 1.1.0
+2023-07-28 13:30:38,596:INFO:            imblearn: 0.11.0
+2023-07-28 13:30:38,596:INFO:   category_encoders: 2.6.1
+2023-07-28 13:30:38,596:INFO:            lightgbm: 4.0.0
+2023-07-28 13:30:38,596:INFO:               numba: 0.57.1
+2023-07-28 13:30:38,596:INFO:            requests: 2.31.0
+2023-07-28 13:30:38,596:INFO:          matplotlib: 3.7.2
+2023-07-28 13:30:38,596:INFO:          scikitplot: 0.3.7
+2023-07-28 13:30:38,596:INFO:         yellowbrick: 1.5
+2023-07-28 13:30:38,596:INFO:              plotly: 5.15.0
+2023-07-28 13:30:38,596:INFO:    plotly-resampler: Not installed
+2023-07-28 13:30:38,596:INFO:             kaleido: 0.2.1
+2023-07-28 13:30:38,596:INFO:           schemdraw: 0.15
+2023-07-28 13:30:38,596:INFO:         statsmodels: 0.14.0
+2023-07-28 13:30:38,597:INFO:              sktime: 0.21.0
+2023-07-28 13:30:38,597:INFO:               tbats: 1.1.3
+2023-07-28 13:30:38,597:INFO:            pmdarima: 2.0.3
+2023-07-28 13:30:38,597:INFO:              psutil: 5.9.5
+2023-07-28 13:30:38,597:INFO:          markupsafe: 2.1.3
+2023-07-28 13:30:38,597:INFO:             pickle5: Not installed
+2023-07-28 13:30:38,597:INFO:         cloudpickle: 2.2.1
+2023-07-28 13:30:38,597:INFO:         deprecation: 2.1.0
+2023-07-28 13:30:38,597:INFO:              xxhash: 3.2.0
+2023-07-28 13:30:38,597:INFO:           wurlitzer: Not installed
+2023-07-28 13:30:38,597:INFO:PyCaret optional dependencies:
+2023-07-28 13:30:38,608:INFO:                shap: 0.42.1
+2023-07-28 13:30:38,608:INFO:           interpret: Not installed
+2023-07-28 13:30:38,608:INFO:                umap: Not installed
+2023-07-28 13:30:38,609:INFO:    pandas_profiling: Not installed
+2023-07-28 13:30:38,609:INFO:  explainerdashboard: Not installed
+2023-07-28 13:30:38,609:INFO:             autoviz: Not installed
+2023-07-28 13:30:38,609:INFO:           fairlearn: Not installed
+2023-07-28 13:30:38,609:INFO:          deepchecks: Not installed
+2023-07-28 13:30:38,609:INFO:             xgboost: 1.7.6
+2023-07-28 13:30:38,609:INFO:            catboost: Not installed
+2023-07-28 13:30:38,609:INFO:              kmodes: Not installed
+2023-07-28 13:30:38,609:INFO:             mlxtend: Not installed
+2023-07-28 13:30:38,609:INFO:       statsforecast: Not installed
+2023-07-28 13:30:38,609:INFO:        tune_sklearn: Not installed
+2023-07-28 13:30:38,609:INFO:                 ray: Not installed
+2023-07-28 13:30:38,609:INFO:            hyperopt: Not installed
+2023-07-28 13:30:38,609:INFO:              optuna: Not installed
+2023-07-28 13:30:38,609:INFO:               skopt: Not installed
+2023-07-28 13:30:38,609:INFO:              mlflow: Not installed
+2023-07-28 13:30:38,609:INFO:              gradio: Not installed
+2023-07-28 13:30:38,609:INFO:             fastapi: 0.100.0
+2023-07-28 13:30:38,609:INFO:             uvicorn: 0.23.1
+2023-07-28 13:30:38,609:INFO:              m2cgen: Not installed
+2023-07-28 13:30:38,609:INFO:           evidently: Not installed
+2023-07-28 13:30:38,609:INFO:               fugue: Not installed
+2023-07-28 13:30:38,609:INFO:           streamlit: Not installed
+2023-07-28 13:30:38,609:INFO:             prophet: Not installed
+2023-07-28 13:30:38,609:INFO:None
+2023-07-28 13:30:38,610:INFO:Set up data.
+2023-07-28 13:32:18,671:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:32:18,671:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:32:18,671:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:32:18,671:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:32:58,895:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:32:58,895:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:32:58,895:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:32:58,895:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:32:59,410:INFO:PyCaret ClassificationExperiment
+2023-07-28 13:32:59,410:INFO:Logging name: clf-default-name
+2023-07-28 13:32:59,410:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2023-07-28 13:32:59,410:INFO:version 3.0.4
+2023-07-28 13:32:59,410:INFO:Initializing setup()
+2023-07-28 13:32:59,410:INFO:self.USI: 4681
+2023-07-28 13:32:59,410:INFO:self._variable_keys: {'y_train', 'is_multiclass', 'memory', '_ml_usecase', 'X_test', 'pipeline', 'X_train', 'X', 'USI', 'html_param', 'idx', 'logging_param', 'exp_id', 'data', '_available_plots', 'fold_groups_param', 'target_param', 'fold_generator', 'n_jobs_param', 'gpu_n_jobs_param', 'gpu_param', 'fix_imbalance', 'exp_name_log', 'log_plots_param', 'y_test', 'y', 'seed', 'fold_shuffle_param'}
+2023-07-28 13:32:59,410:INFO:Checking environment
+2023-07-28 13:32:59,410:INFO:python_version: 3.10.11
+2023-07-28 13:32:59,410:INFO:python_build: ('tags/v3.10.11:7d4cc5a', 'Apr  5 2023 00:38:17')
+2023-07-28 13:32:59,410:INFO:machine: AMD64
+2023-07-28 13:32:59,426:INFO:platform: Windows-10-10.0.22621-SP0
+2023-07-28 13:32:59,426:INFO:Memory: svmem(total=8270589952, available=889425920, percent=89.2, used=7381164032, free=889425920)
+2023-07-28 13:32:59,426:INFO:Physical Core: 4
+2023-07-28 13:32:59,426:INFO:Logical Core: 8
+2023-07-28 13:32:59,426:INFO:Checking libraries
+2023-07-28 13:32:59,426:INFO:System:
+2023-07-28 13:32:59,426:INFO:    python: 3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]
+2023-07-28 13:32:59,426:INFO:executable: D:\Phishing-Domain-Detection\Phishing-Domain-Detection\phishing\Scripts\python.exe
+2023-07-28 13:32:59,426:INFO:   machine: Windows-10-10.0.22621-SP0
+2023-07-28 13:32:59,426:INFO:PyCaret required dependencies:
+2023-07-28 13:32:59,449:INFO:                 pip: 23.2
+2023-07-28 13:32:59,449:INFO:          setuptools: 67.8.0
+2023-07-28 13:32:59,449:INFO:             pycaret: 3.0.4
+2023-07-28 13:32:59,449:INFO:             IPython: 8.14.0
+2023-07-28 13:32:59,449:INFO:          ipywidgets: 8.0.7
+2023-07-28 13:32:59,449:INFO:                tqdm: 4.65.0
+2023-07-28 13:32:59,449:INFO:               numpy: 1.23.5
+2023-07-28 13:32:59,449:INFO:              pandas: 1.5.3
+2023-07-28 13:32:59,449:INFO:              jinja2: 3.1.2
+2023-07-28 13:32:59,449:INFO:               scipy: 1.11.1
+2023-07-28 13:32:59,449:INFO:              joblib: 1.3.1
+2023-07-28 13:32:59,449:INFO:             sklearn: 1.2.2
+2023-07-28 13:32:59,449:INFO:                pyod: 1.1.0
+2023-07-28 13:32:59,449:INFO:            imblearn: 0.11.0
+2023-07-28 13:32:59,449:INFO:   category_encoders: 2.6.1
+2023-07-28 13:32:59,449:INFO:            lightgbm: 4.0.0
+2023-07-28 13:32:59,449:INFO:               numba: 0.57.1
+2023-07-28 13:32:59,449:INFO:            requests: 2.31.0
+2023-07-28 13:32:59,449:INFO:          matplotlib: 3.7.2
+2023-07-28 13:32:59,449:INFO:          scikitplot: 0.3.7
+2023-07-28 13:32:59,449:INFO:         yellowbrick: 1.5
+2023-07-28 13:32:59,449:INFO:              plotly: 5.15.0
+2023-07-28 13:32:59,449:INFO:    plotly-resampler: Not installed
+2023-07-28 13:32:59,449:INFO:             kaleido: 0.2.1
+2023-07-28 13:32:59,449:INFO:           schemdraw: 0.15
+2023-07-28 13:32:59,449:INFO:         statsmodels: 0.14.0
+2023-07-28 13:32:59,449:INFO:              sktime: 0.21.0
+2023-07-28 13:32:59,449:INFO:               tbats: 1.1.3
+2023-07-28 13:32:59,449:INFO:            pmdarima: 2.0.3
+2023-07-28 13:32:59,449:INFO:              psutil: 5.9.5
+2023-07-28 13:32:59,449:INFO:          markupsafe: 2.1.3
+2023-07-28 13:32:59,449:INFO:             pickle5: Not installed
+2023-07-28 13:32:59,449:INFO:         cloudpickle: 2.2.1
+2023-07-28 13:32:59,449:INFO:         deprecation: 2.1.0
+2023-07-28 13:32:59,449:INFO:              xxhash: 3.2.0
+2023-07-28 13:32:59,449:INFO:           wurlitzer: Not installed
+2023-07-28 13:32:59,449:INFO:PyCaret optional dependencies:
+2023-07-28 13:32:59,458:INFO:                shap: 0.42.1
+2023-07-28 13:32:59,458:INFO:           interpret: Not installed
+2023-07-28 13:32:59,458:INFO:                umap: Not installed
+2023-07-28 13:32:59,458:INFO:    pandas_profiling: Not installed
+2023-07-28 13:32:59,458:INFO:  explainerdashboard: Not installed
+2023-07-28 13:32:59,458:INFO:             autoviz: Not installed
+2023-07-28 13:32:59,458:INFO:           fairlearn: Not installed
+2023-07-28 13:32:59,458:INFO:          deepchecks: Not installed
+2023-07-28 13:32:59,458:INFO:             xgboost: 1.7.6
+2023-07-28 13:32:59,458:INFO:            catboost: Not installed
+2023-07-28 13:32:59,458:INFO:              kmodes: Not installed
+2023-07-28 13:32:59,458:INFO:             mlxtend: Not installed
+2023-07-28 13:32:59,458:INFO:       statsforecast: Not installed
+2023-07-28 13:32:59,458:INFO:        tune_sklearn: Not installed
+2023-07-28 13:32:59,458:INFO:                 ray: Not installed
+2023-07-28 13:32:59,458:INFO:            hyperopt: Not installed
+2023-07-28 13:32:59,458:INFO:              optuna: Not installed
+2023-07-28 13:32:59,458:INFO:               skopt: Not installed
+2023-07-28 13:32:59,458:INFO:              mlflow: Not installed
+2023-07-28 13:32:59,458:INFO:              gradio: Not installed
+2023-07-28 13:32:59,458:INFO:             fastapi: 0.100.0
+2023-07-28 13:32:59,458:INFO:             uvicorn: 0.23.1
+2023-07-28 13:32:59,458:INFO:              m2cgen: Not installed
+2023-07-28 13:32:59,458:INFO:           evidently: Not installed
+2023-07-28 13:32:59,458:INFO:               fugue: Not installed
+2023-07-28 13:32:59,458:INFO:           streamlit: Not installed
+2023-07-28 13:32:59,458:INFO:             prophet: Not installed
+2023-07-28 13:32:59,458:INFO:None
+2023-07-28 13:32:59,458:INFO:Set up data.
+2023-07-28 13:34:03,339:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:34:03,339:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:34:03,339:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:34:03,340:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:34:05,833:INFO:Initializing predict_model()
+2023-07-28 13:34:05,834:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001D9CCBDA2F0>, estimator=XGBClassifier(base_score=None, booster='gbtree', callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=None, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=-1, num_parallel_tree=None,
+              predictor=None, random_state=7727, ...), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001D9CCBD3D00>)
+2023-07-28 13:34:05,834:INFO:Checking exceptions
+2023-07-28 13:34:05,834:INFO:Preloading libraries
+2023-07-28 13:36:31,109:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:36:31,109:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:36:31,109:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:36:31,109:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:36:46,889:INFO:PyCaret ClassificationExperiment
+2023-07-28 13:36:46,890:INFO:Logging name: clf-default-name
+2023-07-28 13:36:46,890:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2023-07-28 13:36:46,890:INFO:version 3.0.4
+2023-07-28 13:36:46,890:INFO:Initializing setup()
+2023-07-28 13:36:46,890:INFO:self.USI: f86f
+2023-07-28 13:36:46,890:INFO:self._variable_keys: {'gpu_n_jobs_param', 'y', 'seed', 'memory', 'fold_generator', 'is_multiclass', 'logging_param', 'log_plots_param', 'fix_imbalance', 'idx', 'data', 'html_param', 'pipeline', 'exp_name_log', '_ml_usecase', '_available_plots', 'USI', 'X_train', 'exp_id', 'fold_shuffle_param', 'gpu_param', 'X', 'y_test', 'X_test', 'target_param', 'y_train', 'n_jobs_param', 'fold_groups_param'}
+2023-07-28 13:36:46,890:INFO:Checking environment
+2023-07-28 13:36:46,890:INFO:python_version: 3.10.11
+2023-07-28 13:36:46,890:INFO:python_build: ('tags/v3.10.11:7d4cc5a', 'Apr  5 2023 00:38:17')
+2023-07-28 13:36:46,891:INFO:machine: AMD64
+2023-07-28 13:36:46,916:INFO:platform: Windows-10-10.0.22621-SP0
+2023-07-28 13:36:46,919:INFO:Memory: svmem(total=8270589952, available=991956992, percent=88.0, used=7278632960, free=991956992)
+2023-07-28 13:36:46,919:INFO:Physical Core: 4
+2023-07-28 13:36:46,919:INFO:Logical Core: 8
+2023-07-28 13:36:46,919:INFO:Checking libraries
+2023-07-28 13:36:46,919:INFO:System:
+2023-07-28 13:36:46,919:INFO:    python: 3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]
+2023-07-28 13:36:46,919:INFO:executable: D:\Phishing-Domain-Detection\Phishing-Domain-Detection\phishing\Scripts\python.exe
+2023-07-28 13:36:46,920:INFO:   machine: Windows-10-10.0.22621-SP0
+2023-07-28 13:36:46,920:INFO:PyCaret required dependencies:
+2023-07-28 13:36:46,938:INFO:                 pip: 23.2
+2023-07-28 13:36:46,938:INFO:          setuptools: 67.8.0
+2023-07-28 13:36:46,938:INFO:             pycaret: 3.0.4
+2023-07-28 13:36:46,938:INFO:             IPython: 8.14.0
+2023-07-28 13:36:46,938:INFO:          ipywidgets: 8.0.7
+2023-07-28 13:36:46,938:INFO:                tqdm: 4.65.0
+2023-07-28 13:36:46,938:INFO:               numpy: 1.23.5
+2023-07-28 13:36:46,938:INFO:              pandas: 1.5.3
+2023-07-28 13:36:46,938:INFO:              jinja2: 3.1.2
+2023-07-28 13:36:46,938:INFO:               scipy: 1.11.1
+2023-07-28 13:36:46,938:INFO:              joblib: 1.3.1
+2023-07-28 13:36:46,938:INFO:             sklearn: 1.2.2
+2023-07-28 13:36:46,938:INFO:                pyod: 1.1.0
+2023-07-28 13:36:46,938:INFO:            imblearn: 0.11.0
+2023-07-28 13:36:46,938:INFO:   category_encoders: 2.6.1
+2023-07-28 13:36:46,938:INFO:            lightgbm: 4.0.0
+2023-07-28 13:36:46,938:INFO:               numba: 0.57.1
+2023-07-28 13:36:46,938:INFO:            requests: 2.31.0
+2023-07-28 13:36:46,939:INFO:          matplotlib: 3.7.2
+2023-07-28 13:36:46,939:INFO:          scikitplot: 0.3.7
+2023-07-28 13:36:46,939:INFO:         yellowbrick: 1.5
+2023-07-28 13:36:46,939:INFO:              plotly: 5.15.0
+2023-07-28 13:36:46,939:INFO:    plotly-resampler: Not installed
+2023-07-28 13:36:46,939:INFO:             kaleido: 0.2.1
+2023-07-28 13:36:46,939:INFO:           schemdraw: 0.15
+2023-07-28 13:36:46,939:INFO:         statsmodels: 0.14.0
+2023-07-28 13:36:46,939:INFO:              sktime: 0.21.0
+2023-07-28 13:36:46,939:INFO:               tbats: 1.1.3
+2023-07-28 13:36:46,939:INFO:            pmdarima: 2.0.3
+2023-07-28 13:36:46,939:INFO:              psutil: 5.9.5
+2023-07-28 13:36:46,939:INFO:          markupsafe: 2.1.3
+2023-07-28 13:36:46,939:INFO:             pickle5: Not installed
+2023-07-28 13:36:46,939:INFO:         cloudpickle: 2.2.1
+2023-07-28 13:36:46,939:INFO:         deprecation: 2.1.0
+2023-07-28 13:36:46,939:INFO:              xxhash: 3.2.0
+2023-07-28 13:36:46,939:INFO:           wurlitzer: Not installed
+2023-07-28 13:36:46,939:INFO:PyCaret optional dependencies:
+2023-07-28 13:36:46,950:INFO:                shap: 0.42.1
+2023-07-28 13:36:46,950:INFO:           interpret: Not installed
+2023-07-28 13:36:46,950:INFO:                umap: Not installed
+2023-07-28 13:36:46,950:INFO:    pandas_profiling: Not installed
+2023-07-28 13:36:46,950:INFO:  explainerdashboard: Not installed
+2023-07-28 13:36:46,950:INFO:             autoviz: Not installed
+2023-07-28 13:36:46,950:INFO:           fairlearn: Not installed
+2023-07-28 13:36:46,950:INFO:          deepchecks: Not installed
+2023-07-28 13:36:46,950:INFO:             xgboost: 1.7.6
+2023-07-28 13:36:46,950:INFO:            catboost: Not installed
+2023-07-28 13:36:46,950:INFO:              kmodes: Not installed
+2023-07-28 13:36:46,950:INFO:             mlxtend: Not installed
+2023-07-28 13:36:46,950:INFO:       statsforecast: Not installed
+2023-07-28 13:36:46,950:INFO:        tune_sklearn: Not installed
+2023-07-28 13:36:46,950:INFO:                 ray: Not installed
+2023-07-28 13:36:46,951:INFO:            hyperopt: Not installed
+2023-07-28 13:36:46,951:INFO:              optuna: Not installed
+2023-07-28 13:36:46,951:INFO:               skopt: Not installed
+2023-07-28 13:36:46,951:INFO:              mlflow: Not installed
+2023-07-28 13:36:46,951:INFO:              gradio: Not installed
+2023-07-28 13:36:46,951:INFO:             fastapi: 0.100.0
+2023-07-28 13:36:46,951:INFO:             uvicorn: 0.23.1
+2023-07-28 13:36:46,951:INFO:              m2cgen: Not installed
+2023-07-28 13:36:46,951:INFO:           evidently: Not installed
+2023-07-28 13:36:46,951:INFO:               fugue: Not installed
+2023-07-28 13:36:46,951:INFO:           streamlit: Not installed
+2023-07-28 13:36:46,951:INFO:             prophet: Not installed
+2023-07-28 13:36:46,952:INFO:None
+2023-07-28 13:36:46,952:INFO:Set up data.
+2023-07-28 13:38:37,880:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:38:37,880:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:38:37,880:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:38:37,880:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:39:01,499:INFO:PyCaret ClassificationExperiment
+2023-07-28 13:39:01,500:INFO:Logging name: clf-default-name
+2023-07-28 13:39:01,500:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2023-07-28 13:39:01,500:INFO:version 3.0.4
+2023-07-28 13:39:01,500:INFO:Initializing setup()
+2023-07-28 13:39:01,500:INFO:self.USI: cf3b
+2023-07-28 13:39:01,500:INFO:self._variable_keys: {'log_plots_param', 'y', 'data', 'exp_id', 'USI', 'X_train', '_available_plots', 'pipeline', 'memory', 'html_param', 'n_jobs_param', 'X_test', 'y_test', 'fold_groups_param', 'seed', 'X', 'target_param', 'gpu_param', '_ml_usecase', 'idx', 'y_train', 'gpu_n_jobs_param', 'fold_generator', 'is_multiclass', 'exp_name_log', 'fold_shuffle_param', 'fix_imbalance', 'logging_param'}
+2023-07-28 13:39:01,500:INFO:Checking environment
+2023-07-28 13:39:01,500:INFO:python_version: 3.10.11
+2023-07-28 13:39:01,500:INFO:python_build: ('tags/v3.10.11:7d4cc5a', 'Apr  5 2023 00:38:17')
+2023-07-28 13:39:01,500:INFO:machine: AMD64
+2023-07-28 13:39:01,525:INFO:platform: Windows-10-10.0.22621-SP0
+2023-07-28 13:39:01,531:INFO:Memory: svmem(total=8270589952, available=859414528, percent=89.6, used=7411175424, free=859414528)
+2023-07-28 13:39:01,531:INFO:Physical Core: 4
+2023-07-28 13:39:01,531:INFO:Logical Core: 8
+2023-07-28 13:39:01,531:INFO:Checking libraries
+2023-07-28 13:39:01,531:INFO:System:
+2023-07-28 13:39:01,531:INFO:    python: 3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]
+2023-07-28 13:39:01,531:INFO:executable: D:\Phishing-Domain-Detection\Phishing-Domain-Detection\phishing\Scripts\python.exe
+2023-07-28 13:39:01,531:INFO:   machine: Windows-10-10.0.22621-SP0
+2023-07-28 13:39:01,531:INFO:PyCaret required dependencies:
+2023-07-28 13:39:01,558:INFO:                 pip: 23.2
+2023-07-28 13:39:01,558:INFO:          setuptools: 67.8.0
+2023-07-28 13:39:01,558:INFO:             pycaret: 3.0.4
+2023-07-28 13:39:01,558:INFO:             IPython: 8.14.0
+2023-07-28 13:39:01,558:INFO:          ipywidgets: 8.0.7
+2023-07-28 13:39:01,558:INFO:                tqdm: 4.65.0
+2023-07-28 13:39:01,558:INFO:               numpy: 1.23.5
+2023-07-28 13:39:01,559:INFO:              pandas: 1.5.3
+2023-07-28 13:39:01,559:INFO:              jinja2: 3.1.2
+2023-07-28 13:39:01,559:INFO:               scipy: 1.11.1
+2023-07-28 13:39:01,559:INFO:              joblib: 1.3.1
+2023-07-28 13:39:01,559:INFO:             sklearn: 1.2.2
+2023-07-28 13:39:01,559:INFO:                pyod: 1.1.0
+2023-07-28 13:39:01,559:INFO:            imblearn: 0.11.0
+2023-07-28 13:39:01,559:INFO:   category_encoders: 2.6.1
+2023-07-28 13:39:01,559:INFO:            lightgbm: 4.0.0
+2023-07-28 13:39:01,559:INFO:               numba: 0.57.1
+2023-07-28 13:39:01,559:INFO:            requests: 2.31.0
+2023-07-28 13:39:01,559:INFO:          matplotlib: 3.7.2
+2023-07-28 13:39:01,559:INFO:          scikitplot: 0.3.7
+2023-07-28 13:39:01,559:INFO:         yellowbrick: 1.5
+2023-07-28 13:39:01,559:INFO:              plotly: 5.15.0
+2023-07-28 13:39:01,560:INFO:    plotly-resampler: Not installed
+2023-07-28 13:39:01,560:INFO:             kaleido: 0.2.1
+2023-07-28 13:39:01,560:INFO:           schemdraw: 0.15
+2023-07-28 13:39:01,560:INFO:         statsmodels: 0.14.0
+2023-07-28 13:39:01,560:INFO:              sktime: 0.21.0
+2023-07-28 13:39:01,560:INFO:               tbats: 1.1.3
+2023-07-28 13:39:01,560:INFO:            pmdarima: 2.0.3
+2023-07-28 13:39:01,560:INFO:              psutil: 5.9.5
+2023-07-28 13:39:01,560:INFO:          markupsafe: 2.1.3
+2023-07-28 13:39:01,560:INFO:             pickle5: Not installed
+2023-07-28 13:39:01,561:INFO:         cloudpickle: 2.2.1
+2023-07-28 13:39:01,561:INFO:         deprecation: 2.1.0
+2023-07-28 13:39:01,561:INFO:              xxhash: 3.2.0
+2023-07-28 13:39:01,561:INFO:           wurlitzer: Not installed
+2023-07-28 13:39:01,561:INFO:PyCaret optional dependencies:
+2023-07-28 13:39:01,582:INFO:                shap: 0.42.1
+2023-07-28 13:39:01,582:INFO:           interpret: Not installed
+2023-07-28 13:39:01,582:INFO:                umap: Not installed
+2023-07-28 13:39:01,582:INFO:    pandas_profiling: Not installed
+2023-07-28 13:39:01,582:INFO:  explainerdashboard: Not installed
+2023-07-28 13:39:01,582:INFO:             autoviz: Not installed
+2023-07-28 13:39:01,582:INFO:           fairlearn: Not installed
+2023-07-28 13:39:01,583:INFO:          deepchecks: Not installed
+2023-07-28 13:39:01,583:INFO:             xgboost: 1.7.6
+2023-07-28 13:39:01,583:INFO:            catboost: Not installed
+2023-07-28 13:39:01,583:INFO:              kmodes: Not installed
+2023-07-28 13:39:01,583:INFO:             mlxtend: Not installed
+2023-07-28 13:39:01,583:INFO:       statsforecast: Not installed
+2023-07-28 13:39:01,583:INFO:        tune_sklearn: Not installed
+2023-07-28 13:39:01,583:INFO:                 ray: Not installed
+2023-07-28 13:39:01,583:INFO:            hyperopt: Not installed
+2023-07-28 13:39:01,583:INFO:              optuna: Not installed
+2023-07-28 13:39:01,583:INFO:               skopt: Not installed
+2023-07-28 13:39:01,583:INFO:              mlflow: Not installed
+2023-07-28 13:39:01,583:INFO:              gradio: Not installed
+2023-07-28 13:39:01,583:INFO:             fastapi: 0.100.0
+2023-07-28 13:39:01,583:INFO:             uvicorn: 0.23.1
+2023-07-28 13:39:01,584:INFO:              m2cgen: Not installed
+2023-07-28 13:39:01,584:INFO:           evidently: Not installed
+2023-07-28 13:39:01,584:INFO:               fugue: Not installed
+2023-07-28 13:39:01,584:INFO:           streamlit: Not installed
+2023-07-28 13:39:01,584:INFO:             prophet: Not installed
+2023-07-28 13:39:01,584:INFO:None
+2023-07-28 13:39:01,584:INFO:Set up data.
+2023-07-28 13:39:01,601:INFO:Set up train/test split.
+2023-07-28 13:42:43,169:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:42:43,169:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:42:43,169:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:42:43,169:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:44:32,980:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:44:32,980:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:44:32,980:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:44:32,980:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:44:58,085:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:44:58,085:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:44:58,085:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:44:58,085:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:45:16,819:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:45:16,819:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:45:16,819:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-28 13:45:16,819:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
